@@ -7,7 +7,7 @@
 		<div id="cw-header">
 			<div id="cw-top-bar">
 				<div id="cw-logo">
-					<a>logo</a>
+					<a></a>
 				</div>
 				<ul id="cw-navigation">
 					<li><a href="#">首页</a></li>
