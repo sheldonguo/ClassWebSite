@@ -21,7 +21,10 @@
 				</ul>
 			</div>
 		</div>
-		<div id="cw-content"></div>
-		<div id="cw-footer"></div>
+		<div id="cw-content">
+		</div>
+		<div id="cw-footer">
+		<div id="cw-copyright"></div>
+		</div>
 	</body>
 </html>
