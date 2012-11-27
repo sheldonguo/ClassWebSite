@@ -26,7 +26,7 @@
 					<li><a href="resources.php">资源</a></li>
 				</ul>
 				<ul id="cw-login">
-					<li id="nav-login"><a href="#">登陆</a></li>
+					<li id="nav-login"><a href="#">登入</a></li>
 					<li id="nav-register"><a href="login.html">注册</a></li>
 				</ul>
 			</div>
