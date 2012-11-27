@@ -30,6 +30,7 @@
 					</tr>
 					</table>
 					<input name="submit" type="submit" value="登入" style="padding: 10px"/>
+					<span style="color: Red;">用户名不存在或者密码错误。</span>
 					</form>
 				</div>
 		<?php
