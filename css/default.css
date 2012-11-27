@@ -83,13 +83,68 @@ body{
 #cw-login #nav-register{
 	
 }
+#cw-message{
+	margin-top:20px;
+	margin-right:40px;
+	border-radius:10px;
+	width:270px;
+	height:250px;
+	border:#000000 1px solid;
+	position:relative;
+	float:right;
+}
+#cw-message ul{
+	list-style: none;
+}
+#cw-message ul li{
+	color:#333333;
+	height:25px;
+	overflow: hidden;
+	text-overflow:ellipsis; 
+	white-space:pre;
+	width:250px;
+	margin-left:5px;
+	margin-top:3px;
+	margin-bottom:5px;
+}
+#cw-message ul li a{
+	text-align: left;
+	font-size:17px;
+	text-decoration: none;
+}
+#cw-post{
+	width: 550px;
+	height:300px;
+	border:#000000 1px solid;
+	position:relative;
+	float:left;
+	margin-left:65px;
+	margin-top:1px;
+}
+.label-title{
+	background:url(../images/cw_label_bg.png) no-repeat top left;
+	color: #FAFAFA;
+	padding-left:50px;
+	margin: 5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:left;
+	font-size: 22px;
+	font-weight: bold;
+}
 #cw-content{
 	width:980px;
 	height:600px;
 	margin:0 auto;
 	position: relative;
-	text-align:center;
 	background:url(../images/cw_content_bg.jpg) repeat-y top left;
+}
+#cw-content-other{
+	width:980px;
+	height:600px;
+	margin:0 auto;
+	position: relative;
+	background:url(../images/cw_content_other_bg.jpg) repeat-y top left;
 }
 #cw-footer{
 	width: 100%;
@@ -103,4 +158,11 @@ body{
 	margin:0 auto;
 	position: relative;
 	background: url(../images/cw_footer_bg.jpg) top left;
+}
+#cw-copyright-other{
+	width:980px;
+	height:100px;
+	margin:0 auto;
+	position: relative;
+	background: url(../images/cw_footer_other_bg.jpg) top left;
 }

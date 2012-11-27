@@ -1,5 +1,5 @@
 		<div id="cw-footer">
-		<div id="cw-copyright"></div>
+		<div id="cw-copyright-other"></div>
 		</div>
 	</body>
 </html>

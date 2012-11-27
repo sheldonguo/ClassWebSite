@@ -2,6 +2,16 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="../css/default.css" />
+		<link rel="stylesheet" type="text/css" href="../css/s3slider.css" />
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/s3Slider.js"></script>
+		<script type="text/javascript">
+    		$(document).ready(function() {
+		        $('#slider').s3Slider({
+		            timeOut: 3000
+		        });
+		    });
+		</script>
 	</head>
 	<body>
 		<div id="cw-header">
