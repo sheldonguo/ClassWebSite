@@ -8,51 +8,19 @@
 		<?php 
 			include ('header.php');
 		?>
-			<div id="cw-content-other">
-					<h2 style="color:Red;padding:20px">
-						我的3班<span style="color: #565758;font-size: 15px;"> - 注册</span>
-					</h2>	
-					<form name="f1" method="post" action="register-jumper.php">
-						<table class="table">
-					<tr height=40px>
-						<td width="150" valign="center"><dfn>*</dfn>用户名：</td>
-						<td>
-							<input name="name" type="text"  maxlength="50" />
-							（请尽量使用真实姓名。*）		
-						</td>
-					</tr>
-					<tr height=40px>
-						<td width="150" valign="center"><dfn>*</dfn>密码：</td>
-						<td>
-							<input type="password" name="password" maxlength="50" />
-							（请输入登入密码。*）								
-						</td>
-					</tr>
-					<tr height=40px>
-						<td width="150" valign="center"><dfn>*</dfn>再次输入密码：</td>
-						<td>
-							<input type="password" name="confirm-password" maxlength="50" />
-                        	（确保密码输入正确。*）							
-						</td>
-					</tr>
-					<tr height=40px>
-						<td width="150" valign="center"><dfn>*</dfn>E-mail：</td>
-						<td>
-							<input type="text" name="e-mail"  maxlength="100" />
-							<span style="color=green;padding-top: 2px;">（邮箱将用来与您的同学联系。*）</span>						
-						</td>
-					</tr>
-					<tr height=40px>
-						<td width="150" valign="center"><dfn>*</dfn>头像：</td>
-						<td>
-							<input type="text" name="face" maxlength="10" />
-							（请上传您的头像。）
-						</td>
-					</tr>
-					</table>
-					<span>标记“*”为必填项目</span>
-					<input name="submit" type="submit" value="注册" style="padding: 10px"/>
-					</form>
+			<div id="cw-content-other" style="height:450px">
+					<h1 style="color:#C0F048;padding:20px">
+						我的3班<span style="color: #565758;font-size: 18px;"> —登录</span>
+					</h1>	
+			<div class="table">
+				<form name="f1" method="post" action="register-jumper.php">
+				<label><div>用户名:</div><input name="name" type="text"  class="input-text"/></label><br />
+				<label><div>密码:</div><input name="password" type="password"  class="input-text"/></label><br />
+				<label><div>再次输入密码:</div><input name="confirm-password" type="password"  class="input-text"/></label><br />
+				<label><div>邮箱:</div><input type="text" name="e-mail" class="input-text"/></label><br />
+				<input name="submit" type="submit" value="注册" class="input-submit"/>
+				</form>
+			</div>
 			</div>
 		<?php
 		include ('footer.php'); 

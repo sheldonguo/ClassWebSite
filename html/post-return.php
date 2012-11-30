@@ -1,3 +1,8 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	</head>
+	<body>
 <?php 
 	include 'db-connect.php';
 	$post_title=$_POST['title'];
@@ -25,3 +30,5 @@
 		echo '您尚未登陆，请先<a href="login.php">登陆<a>';
 	}
 ?>
+</body>
+</html>

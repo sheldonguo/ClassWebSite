@@ -62,12 +62,13 @@
 	color:#333333;
 	margin:0 auto;
 }
-post-page-nav {
+#post-page-nav {
 	position: relative;
 	float: right;
 }
 #post-page-nav ul{
-	float:right;
+	margin:0 auto;
+	text-align:center;
 	height:40px;
 	list-style: none;
 }
@@ -105,7 +106,7 @@ post-page-nav {
 	text-decoration: none;
 }
 #cw-new-post a:hover{
-	color:#008000;
+	color:#C0F048;
 }
 #cw-new-comment{
 	width:700px;
@@ -128,4 +129,78 @@ post-page-nav {
 	font-weight:bold;
 	padding:3px;
 	color: #008000;
+}
+#cw-class-info{
+	width:700px;
+	height:900px;
+	margin: 0 auto;
+}
+#cw-class-info table{
+	width:550px;
+	margin:0 auto;
+	color:#FAFAFA;
+	font:"微软雅黑" 20px bold;
+	text-align: center;
+	border:#C0F048 5px solid;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0px 0px 8px #f0f0f0;
+}
+#cw-class-info table td{
+	border:#C0F048 1px solid;
+}
+#cw-class-info table th{
+	border:#C0F048 1px solid;
+	background-color:#CCCCCC;
+	color:#000000;
+	padding:3px;
+}
+.re-input-text{
+	width:300px;
+	height:40px;
+	padding:5px;
+	color:#000000;
+	margin-bottom:5px;
+}
+.re-input-submit{
+	width:60px;
+	height:40px;
+	border:#C0F048 3px solid;
+	box-shadow: 0px 0px 8px #f0f0f0;
+	margin-top:10px;
+	margin-left:60px;
+	margin-bottom:10px;
+	text-align:center;
+	font-size:24px;
+}
+#re-upload-box{
+	padding-top:10px;
+}
+#re-upload-box h4{
+	color:red;
+}
+#re-upload-box span{
+	color:#ffffff;
+	font-size:20px;
+	padding-right:5px;
+	font-weight: bolder;
+}
+#cw-relist{
+	width:650px;
+	margin:10px auto;
+	color:#FAFAFA;
+	font:"微软雅黑" 20px bold;
+	text-align: center;
+	border:#C0F048 5px solid;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0px 0px 8px #f0f0f0;
+}
+#cw-relist tr{
+	height: 40px;
+}
+#cw-relist td{
+	border:#C0F048 1px solid;
+}
+#cw-relist a{
+	text-decoration: none;
+	color:#C0F048;
 }

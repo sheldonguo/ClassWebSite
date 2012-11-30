@@ -30,9 +30,14 @@ body{
 	background:url(../images/cw_logo_bg.png) top left;
 	z-index: 1000;
 }
+#cw-logo img{
+	margin-top:10px;
+	text-decoration: none;
+	border: none;
+}
 #cw-logo a{
-	height: 78px;
-	
+	text-decoration: none;
+	border: none;
 }
 #cw-navigation{
 	position:relative;
@@ -47,9 +52,10 @@ body{
 }
 #cw-navigation li a{
 	text-decoration: none;
-	color: #FAFAFA;
-	font-size:20px;
-	font-weight: bold;
+	color: #C0F048;
+	text-shadow:0px 0px 8px #f0f0f0;
+	font-size:24px;
+	font-weight: bolder;
 	margin-right: 25px;
 	padding:3px;
 	position:relative;
@@ -58,8 +64,7 @@ body{
 	border-radius: 4px 4px 4px 4px;
 }
 #cw-navigation li a:hover{
-	background: #FFFFFF;
-	color: #000000;
+	color: #FFFFFF;
 }
 #cw-login{
 	position:absolute;
@@ -154,6 +159,7 @@ body{
 .cw-post-item img{
 	display:inline;
 }
+
 .cw-post-item a{
 	width:95%;
 	height:30px;
@@ -175,6 +181,11 @@ body{
 	font-size:16px;
 	font-weight: bolder;
 	color:#fff;
+}
+#cw-upload-box{
+	width:600px;
+	height:700px;
+	margin:0 auto;
 }
 #cw-post{
 	width: 540px;

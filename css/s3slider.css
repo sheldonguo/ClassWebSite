@@ -28,7 +28,10 @@
     color: #fff;
     display: none;
 }
-
+.sliderImage img{
+	text-decoration: none;
+	border: none;
+}
 .clea#sliderContent  {
 	clear: both;
 }

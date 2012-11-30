@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>10软件3班——班级网站</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="../css/default.css" />
 		<link rel="stylesheet" type="text/css" href="../css/s3slider.css" />
@@ -18,7 +19,7 @@
 		<div id="cw-header">
 			<div id="cw-top-bar">
 				<div id="cw-logo">
-					<a></a>
+					<a href="#"><img src="../images/cw_logo.png" /></a>
 				</div>
 				<ul id="cw-navigation">
 					<li><a href="index.php">首页</a></li>
@@ -31,7 +32,7 @@
 			session_start();
 			
 			if(isset($_SESSION["name"])){
-				echo '<li id="nav-login"><a id="logoin-name" href="#">用户名:'.$_SESSION["name"];
+				echo '<li id="nav-login"><a id="logoin-name" href="#">'.$_SESSION["name"];
 			}else{
 				echo '<li id="nav-login"><a id="logoin-name" href="login.php">登陆';
 			}

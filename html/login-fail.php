@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>注册</title>
+		<title>登陆</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 		<link rel="stylesheet" type="text/css" href="../css/register.css" />
 	</head>
@@ -8,29 +8,17 @@
 		<?php 
 			include ('header.php');
 		?>
-			<div id="cw-content-other">
-					<h2 style="color:Red;padding:20px">
-						我的3班<span style="color: #565758;font-size: 15px;"> - 登入</span>
-					</h2>	
+			<div id="cw-content-other" style="height: 450px">
+					<h1 style="color:#C0F048;padding:40px">
+						我的3班<span style="color: #565758;font-size: 18px;"> —登录</span>
+					</h1>	
 					<form name="f1" method="post" action="login-jumper.php">
-						<table class="table" style="height: 200px">
-					<tr >
-						<td width="150" valign="center"><dfn>*</dfn>用户名：</td>
-						<td>
-							<input name="name" type="text"  maxlength="50" />
-							（您注册时的姓名。）		
-						</td>
-					</tr>
-					<tr >
-						<td width="150" valign="center"><dfn>*</dfn>密码：</td>
-						<td>
-							<input type="password" name="password" maxlength="50" />
-							（请输入登入密码。*）								
-						</td>
-					</tr>
-					</table>
-					<input name="submit" type="submit" value="登入" style="padding: 10px"/>
-					<span style="color: Red;">用户名不存在或者密码错误。</span>
+						<div class="login">
+						<label><span>用户名:</span><input name="name" type="text"  class="input-text"/></label><br />
+						<label><span>&nbsp;&nbsp;&nbsp;密码:</span><input type="password" name="password" class="input-text" /></label>
+						<input name="submit" type="submit" value="登录" class="input-submit"/>
+						<p style="color: red;">登陆失败，请重新登陆</p>
+					</div>
 					</form>
 				</div>
 		<?php

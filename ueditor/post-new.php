@@ -16,6 +16,7 @@
 	<div id="cw-header">
 			<div id="cw-top-bar">
 				<div id="cw-logo">
+					<a href="#"><img src="../images/cw_logo.png" /></a>
 				</div>
 				<ul id="cw-navigation">
 					<li><a href="../html/index.php">首页</a></li>
@@ -24,7 +25,16 @@
 					<li><a href="../html/resources.php">资源</a></li>
 				</ul>
 				<ul id="cw-login">
-					<li id="nav-login"><a href="../html/login.php">登录</a></li>
+				<?php 
+					session_start();
+					
+					if(isset($_SESSION["name"])){
+						echo '<li id="nav-login"><a id="logoin-name" href="#">'.$_SESSION["name"];
+					}else{
+						echo '<li id="nav-login"><a id="logoin-name" href="login.php">登陆';
+					}
+					echo '</a></li>';
+					?>
 					<li id="nav-register"><a href="../html/register.php">注册</a></li>
 				</ul>
 			</div>
