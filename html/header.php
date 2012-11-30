@@ -3,6 +3,7 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="../css/default.css" />
 		<link rel="stylesheet" type="text/css" href="../css/s3slider.css" />
+		<link rel="stylesheet" type="text/css" href="../css/post.css" />
 		<script type="text/javascript" src="../js/jquery.js"></script>
 		<script type="text/javascript" src="../js/s3Slider.js"></script>
 		<script type="text/javascript">
@@ -22,12 +23,22 @@
 				<ul id="cw-navigation">
 					<li><a href="index.php">首页</a></li>
 					<li><a href="classinfo.php">班风</a></li>
-					<li><a href="blog.php">博文</a></li>
+					<li><a href="blog.php?page_no=0">博文</a></li>
 					<li><a href="resources.php">资源</a></li>
 				</ul>
 				<ul id="cw-login">
-					<li id="nav-login"><a href="#">登入</a></li>
-					<li id="nav-register"><a href="login.html">注册</a></li>
+		<?php 
+			session_start();
+			
+			if(isset($_SESSION["name"])){
+				echo '<li id="nav-login"><a id="logoin-name" href="#">用户名:'.$_SESSION["name"];
+			}else{
+				echo '<li id="nav-login"><a id="logoin-name" href="login.php">登陆';
+			}
+			echo '</a></li>';
+			?>
+				<li id="nav-register"><a href="register.php">注册</a></li>
 				</ul>
 			</div>
 		</div>
+	

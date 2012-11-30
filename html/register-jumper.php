@@ -7,7 +7,7 @@
 	<body>
 		<?php 
 			include ('header.php');
-			
+			include 'db-connect.php';
 		?>
 			<div id="cw-content-other">
 				<div style="position: relative;top: 40px">
@@ -32,14 +32,8 @@
 						$f=FALSE;
 					}
 					
-					$mysql_server_name="localhost";
-					$mysql_username="root";
-					$password="272814";
-					$database="class_website";
 					
-					$conn=mysql_connect($mysql_server_name,$mysql_username,$password) or die ("fail to connect to database");
-					
-					mysql_select_db($database);
+					$db_handler=new DBHandler;
 					
 					$query="insert into cw_users(user_name,user_pwd,user_touxiang,user_email,user_registered) values('".$_POST["name"]."','".$_POST["password"]."',"."null".",'".$_POST["e-mail"]."',"."now())";
 					
@@ -53,7 +47,7 @@
 							echo '<a href="register.php">返回</a>';
 						}
 					}
-					mysql_close($conn);
+					$db_handler->db_close();
 				?>
 				</div>
 					

@@ -1,0 +1,131 @@
+#post-title{
+	padding-top:10px;
+	width:700px;
+	padding-left:20px;
+	height:100px;
+	position:relative;
+	top:10px;
+	margin:0 auto;
+	border:#fafafa 3px dashed;
+	box-shadow: 0px 0px 8px #f0f0f0;
+}
+#post-title h2{
+	line-height:28px;
+	text-align:left;
+	color:#FAFAFA;
+}
+#post-box{
+	width:700px;
+	margin:0 auto;
+}
+.post-head{
+	position:relative;
+	float:right;
+	padding-top:10px;
+	padding-right:20px;
+	color: #FAFAFA;
+	font-size: 18px;
+	font-weight: bolder;
+	padding-bottom:10px;
+}
+#post-content{
+	width:700px;
+	position:relative;
+	top:20px;
+	margin:0 auto;
+	padding:10px;
+	text-align:left;
+	background-color:#333333;
+	color:#F0F0F0;
+	font-size:20px;
+	border:#fafafa 3px solid;
+	box-shadow: 0px 0px 8px #f0f0f0;
+}
+#comment-box{
+	width:700px;
+	padding:10px;
+	position:relative;
+	top:20px;
+	margin:0 auto;
+}
+.comment-items{
+	width:690px;
+	margin:0 auto;
+	text-align:left;
+	font-size:18px;
+	padding:10px;
+	margin-bottom:20px;
+	background-color:#f0f0f0;
+}
+.comment-items p{
+	width:80%;
+	color:#333333;
+	margin:0 auto;
+}
+post-page-nav {
+	position: relative;
+	float: right;
+}
+#post-page-nav ul{
+	float:right;
+	height:40px;
+	list-style: none;
+}
+#post-page-nav li{
+	display:block;
+	float:left;
+	margin:2px;
+	background-color: #FAFAFA;
+	border: #333333 1px solid;
+	
+}
+#post-page-nav li a{
+	text-decoration: none;
+	color: #000000;
+	padding:5px;
+}
+#post-page-nav li a:hover{
+	background-color:#C0F048;
+	text-decoration: none;
+	padding:5px;
+}
+#cw-new-post{
+	width:600px;
+	height:30px;
+	padding:5px;
+	position:relative;
+	top:20px;
+	left:120px;
+	text-align: left;
+}
+#cw-new-post a{
+	color: #F0F0EE;
+	font-size:25px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+#cw-new-post a:hover{
+	color:#008000;
+}
+#cw-new-comment{
+	width:700px;
+	height:100px;
+	position:relative;
+	padding-top:20px;
+	top:10px;
+	margin:0 auto;
+}
+#cw-new-comment .input-text{
+	width: 600px;
+	height: 40px;
+	font-size: 25px;
+}
+#cw-new-comment .input-submit{
+	width: 60px;
+	height: 40px;
+	font-size: 25px;
+	background-color:#888888;
+	font-weight:bold;
+	padding:3px;
+	color: #008000;
+}

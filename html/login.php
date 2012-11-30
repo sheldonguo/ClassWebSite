@@ -10,7 +10,7 @@
 		?>
 			<div id="cw-content-other">
 					<h2 style="color:Red;padding:20px">
-						我的3班<span style="color: #565758;font-size: 15px;"> - 登入</span>
+						我的3班<span style="color: #565758;font-size: 15px;"> - 登录</span>
 					</h2>	
 					<form name="f1" method="post" action="login-jumper.php">
 						<table class="table" style="height: 200px">
@@ -29,7 +29,7 @@
 						</td>
 					</tr>
 					</table>
-					<input name="submit" type="submit" value="登入" style="padding: 10px"/>
+					<input name="submit" type="submit" value="登录" style="padding: 10px"/>
 					</form>
 				</div>
 		<?php
