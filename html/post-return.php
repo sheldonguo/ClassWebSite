@@ -7,7 +7,8 @@
 	include 'db-connect.php';
 	$post_title=$_POST['title'];
 	$post_content=$_POST['post_content'];
-	$post_author="allen";	//登陆者用户名
+	session_start();
+	$post_author=$_SESSION['name'];	//登陆者用户名
 	session_start();
 	if(isset($_SESSION["name"])){
 		

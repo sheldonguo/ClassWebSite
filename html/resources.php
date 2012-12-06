@@ -29,7 +29,7 @@
 		<div id="cw-content-other" style="height: 700px;">
 			<div id="cw-upload-box">
 				<form enctype="multipart/form-data" method="post" name="upform">
-				<div id="re-upload-box"><span>我要上传文件:</span><input name="upfile" type="file" class="re-input-text" size="40">
+				<div id="re-upload-box"><span>我要上传文件:</span><input name="upfile" type="file" class="re-input-text" size="17">
 				<input type="submit" value="上传" class="re-input-submit" size="17"><br>
 				<h4>注：允许上传的文件类型为:doc|docx|pdf|ppt|rar|zip 大小&le;10M哦！</h4>
 				</div>

@@ -31,6 +31,7 @@
 }
 .login label{
 	margin:0 auto;
+	padding:10px;
 	width:600px;
 	display:block;
 }
@@ -44,6 +45,9 @@
 .input-text{
 	width:300px;
 	height:40px;
+	position:relative;
+	float:right;
+	vertical-align:middle;
 	border:#C0F048 3px solid;
 	box-shadow: 0px 0px 8px #f0f0f0;
 }

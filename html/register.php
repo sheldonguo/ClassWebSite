@@ -10,7 +10,7 @@
 		?>
 			<div id="cw-content-other" style="height:450px">
 					<h1 style="color:#C0F048;padding:20px">
-						我的3班<span style="color: #565758;font-size: 18px;"> —登录</span>
+						我的3班<span style="color: #565758;font-size: 18px;"> —注册</span>
 					</h1>	
 			<div class="table">
 				<form name="f1" method="post" action="register-jumper.php">

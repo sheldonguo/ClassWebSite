@@ -215,6 +215,7 @@ body{
 }
 #cw-content-other{
 	width:980px;
+	min-height:500px;
 	margin:0 auto;
 	position: relative;
 	background:url(../images/cw_content_other_bg.jpg) repeat-y top left;
